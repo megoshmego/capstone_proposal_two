@@ -1,0 +1,56 @@
+Project Proposal for Capstone Ideas
+Introduction:
+This document outlines three potential capstone project ideas for development using React and Node.js. Each project leverages external APIs to deliver unique functionalities aimed at specific user demographics, providing both utility and entertainment.
+
+
+
+Project 1: PaceSync - Music and Running Tempo App
+
+Tech Stack: React for the frontend, Node.js for the backend, and Spotify API for music data.
+Focus: This is a full-stack application with a slight emphasis on the frontend to ensure a seamless and engaging user interaction experience.
+Platform: Website.
+Goal: To allow runners to sync their running pace with music tempo, enhancing their running experience by automatically adjusting music speed in real-time.
+User Demographic: Targeted towards fitness enthusiasts who enjoy running and music, particularly those who like to use music as a motivational tool during workouts.
+Data Usage: Utilizes the Spotify API to fetch songs and manipulate playback speed based on the user’s running tempo. Users can exclude specific musical genres and use a shuffle feature to maintain song variety within the desired tempo range.
+Approach:
+Database Schema: User profiles, settings for music preferences.
+API Challenges: Handling API rate limits and ensuring seamless playback across different devices.
+Sensitive Information: User account information and preferences will be securely stored.
+Functionality: Adjustable tempo control, music genre filtering, and optional shuffle on tempo.
+User Flow: Users sign up, set preferences, start a running session, and music plays. Adjustments can be made via an input stepper-like interface.
+Stretch Goals: Integrate with wearable devices to automatically detect pace changes.
+
+
+Project 2: KanyeQuote - Interactive Quote Generator
+
+Tech Stack: React for the frontend, Node.js for the backend.
+Focus: Frontend-focused to create a visually appealing and interactive experience.
+Platform: Website.
+Goal: To entertain users by providing random Kanye West quotes in a fun and interactive way resembling a Magic 8-Ball.
+User Demographic: Users who enjoy pop culture and casual web browsing, likely skewing younger.
+Data Usage: Uses the kanye.rest API to fetch random quotes. The API is simple, focusing solely on delivering content.
+Approach:
+Functionality: Users click or shake the virtual 8-ball to receive a random quote.
+Challenges: Ensuring the API remains available.
+Features: The site will mimic the physical interaction of a Magic 8-Ball but with digital quotes.
+
+
+Project 3: FlightWeather Tracker
+
+Tech Stack: React for the frontend, Node.js for the backend, Aviationstack for flight data and National Weather Service for weather forecasts.
+Focus: Full-stack application with a balance between handling data (backend) and presenting it (frontend).
+Platform: Website.
+Goal: To provide travelers with real-time flight tracking and weather conditions at their destinations.
+User Demographic: Frequent travelers, business professionals, and tourist agencies.
+Data Usage: Integration of flight tracking API and a weather API to display comprehensive travel information.
+Approach:
+Database Schema: Store user itineraries.
+API Challenges: Coordinating data from multiple sources and presenting it in a user-friendly manner.
+Functionality: Real-time updates, notifications for flight changes, and weather alerts.
+User Flow: Users enter their flight details to receive current and forecasted weather conditions along with flight status updates.
+Comparative Analysis:
+These projects were selected for their potential to address different needs and interests, ranging from fitness and entertainment to travel. Each offers unique challenges and opportunities for development, making them ideal candidates for a capstone project.
+
+Conclusion:
+I am excited about the possibility of developing any of these projects, each offering a unique way to enhance user experience through specialized functionalities and modern web technologies.
+
