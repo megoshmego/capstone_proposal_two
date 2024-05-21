@@ -4,7 +4,7 @@ This document outlines Capstone Two per Springboard requirements.
 
 
 
-=PaceSync - Music and Running Tempo App
+PaceSync - Music and Running Tempo App
 
 Tech Stack: React for the frontend, Node.js for the backend, and Spotify API for music data.
 Focus: This is a full-stack application with a slight emphasis on the frontend to ensure a seamless and engaging user interaction experience.
